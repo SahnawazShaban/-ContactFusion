@@ -1,5 +1,8 @@
 # ContactFusion
+<<<<<<< HEAD
 
+=======
+>>>>>>> edc2b36bfa2467270d136a2c42237b5efd073af6
 ContactFusion is a comprehensive contact management solution offering user authentication via email, Google, and GitHub, cloud-based profile picture uploads, and direct email composition. It features adding, updating, deleting, and searching contacts, exporting data to Excel, marking favorites, and user customization with dark/light themes.
 
 # Project Overview:
