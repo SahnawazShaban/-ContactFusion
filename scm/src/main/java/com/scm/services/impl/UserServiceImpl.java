@@ -68,6 +68,8 @@ public class UserServiceImpl implements UserService {
         user2.setPhoneVerified(user.isPhoneVerified());
         user2.setProvider(user.getProvider());
         user2.setProviderUserId(user.getProviderUserId());
+        user2.setContacts(user.getContacts());// get contact from server
+        user2.setAbout(user.getAbout()); // get about from client side
         // save the user in database
         User save = userRepo.save(user2);
         return Optional.ofNullable(save);
